@@ -1,13 +1,8 @@
 {
-    "name": "pensoft/oc-menumanager-plugin",
+    "name": "benfreke/oc-menumanager-plugin",
     "type": "october-plugin",
     "description": "None",
     "require": {
         "composer/installers": "~1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "BenFreke\\MenuManager\\": "./"
-        }
     }
 }
