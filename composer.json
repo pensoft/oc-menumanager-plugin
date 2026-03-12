@@ -2,6 +2,9 @@
     "name": "benfreke/oc-menumanager-plugin",
     "type": "october-plugin",
     "description": "None",
+    "extra": {
+        "installer-name": "benfreke/menumanager"
+    },
     "require": {
         "composer/installers": "~1.0"
     }
