@@ -1,11 +1,16 @@
 {
-    "name": "benfreke/oc-menumanager-plugin",
+    "name": "pensoft/oc-menumanager-plugin",
     "type": "october-plugin",
-    "description": "None",
+    "description": "Menu Manager plugin for OctoberCMS",
     "extra": {
         "installer-name": "benfreke/menumanager"
     },
     "require": {
-        "composer/installers": "~1.0"
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenFreke\\MenuManager\\": ""
+        }
     }
 }
